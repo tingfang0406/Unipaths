@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activities.RegisterActivity">
+
+    <View
+        android:id="@+id/some_id"
+        android:layout_width="369dp"
+        android:layout_height="343dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-4dp"
+        android:background="@drawable/unipaths_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="394dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/signin_btn"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Sign in"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:stateListAnimator="@null"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="394dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/signup_btn"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Sign up"
+        android:textColor="#13325B"
+        android:textColorLink="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

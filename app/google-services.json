@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772073324527",
+    "project_id": "unipaths-adb69",
+    "storage_bucket": "unipaths-adb69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772073324527:android:faaeb57f4b3d65c0b4401a",
+        "android_client_info": {
+          "package_name": "com.example.unipaths"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKr7r8nn8y5VLSBH4pyl04LDBkEDfEf1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
